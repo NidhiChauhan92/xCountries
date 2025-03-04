@@ -19,7 +19,7 @@ function Card({ name, flag, abbr }) {
                     <img style={{
                         width: "100px",
                         textAlign: "center"
-                    }} src={flag} />
+                    }} src={flag} alt={abbr}/>
                     <h2>{name}</h2>
                 </div>
             
